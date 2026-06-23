@@ -16,7 +16,7 @@ New features in this Bootloader:
   This is a unique feature, normally the User cannot Write to Flash from a user program,
   but this Bootloader support writing and reaing pages of Flash and EEprom.
 - A demo for Writing and Reading from an (Arduino) program is included.
-- The Bootloader will set the LOCK bits as needed on first rud, to avoid it from beiing overwritten.
+- The Bootloader will set the LOCK bits as needed on first run, to avoid it from beiing overwritten.
   Do not use the default value for the lock bite (0x0f) that will diaable the support for calling
   the functions for Flash/EEprom functions, leave it unprogrammed (0xFF)
 - The Bootloader is also fast. I included 2 versions, one at a 115K2 speed, compatible with existing
