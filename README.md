@@ -1,5 +1,5 @@
 # Assyboot
-New bootloader for all ATMega328 Variants with EEPRom support, Smart Write and user enrty for Flash/EEprom operations 
+New bootloader for all ATMega328 Variants with EEPRom support, Smart Write and user entry for Flash/EEprom operations 
 
 This Bootloader is completely written an Assembler, using Microchip Studio.
 The size is 256 Words, (512 Bytes) leaving 31,5 KByte (31232 Bytes) for the User Application.
